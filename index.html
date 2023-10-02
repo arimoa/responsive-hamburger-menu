@@ -93,24 +93,26 @@
       </section>
       <section id="contact-section">
         <h3 id="contact-header">Contact us</h3>
-        <div id="contact-form">
-          <div id="contact-form_input">
-            <input type="text" placeholder="Your Name..." /><input
-              type="text"
-              placeholder="Your Family..."
-            /><input type="email" placeholder="Your Email..." />
+        <form id="contact-form">
+          <div class="input-section">
+            <div id="contact-form_input">
+              <input type="text" placeholder="Your Name..." /><input
+                type="text"
+                placeholder="Your Family..."
+              /><input type="email" placeholder="Your Email..." />
+            </div>
+            <div id="contact-form_message">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Enter your message..."
+              ></textarea>
+            </div>
           </div>
-          <div id="contact-form_message">
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Enter your message..."
-            ></textarea>
-          </div>
-        </div>
-        <button id="send">Send Message</button>
+          <button id="send">Send Message</button>
+        </form>
       </section>
     </div>
   </body>
