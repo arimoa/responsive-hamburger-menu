@@ -1,5 +1,5 @@
-var hamburgerBtn = document.getElementById("hamburger-icon");
-var asideEl = document.getElementById("aside");
+const hamburgerBtn = document.getElementById("hamburger-icon");
+const asideEl = document.getElementById("aside");
 
 hamburgerBtn.addEventListener("click", (e) => {
   asideEl.classList.toggle("show-menu");
